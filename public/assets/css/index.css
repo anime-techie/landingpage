@@ -17,4 +17,7 @@ code {
   .section-reverse{
     flex-direction: column-reverse;
   }
+  .portfolio-filter{
+    font-size: 0.8em;
+    }
 }
