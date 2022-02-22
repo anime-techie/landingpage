@@ -248,7 +248,7 @@ Spinner
 /* ------------------------
 Portfolio
 ------------------------*/
-.portfolio-filter { display: inline-block; margin: 0 auto 0rem; text-align: center; font-size: 0.75em;}
+.portfolio-filter { display: inline-block; margin: 0 auto 0rem; text-align: center;}
 .portfolio-filter button { position: relative; background: none; padding: 8px 15px; border-radius: .25rem; cursor: pointer; border: none; font-weight: normal; color: #1d1d33; float: left; text-transform: capitalize; }
 .portfolio-filter button:focus { outline: none; outline-style: none; outline-offset: 0; }
 .portfolio-filter button.is-checked, .portfolio-filter button:hover { background: #0096db; color: #ffffff; box-shadow: 0 10px 55px 5px rgba(137, 173, 255, .15) !important; }
