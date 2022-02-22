@@ -1,0 +1,43 @@
+[debug] [2022-02-22T15:53:33.894Z] ----------------------------------------------------------------------
+[debug] [2022-02-22T15:53:33.897Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\rakes\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2022-02-22T15:53:33.898Z] CLI Version:   9.21.0
+[debug] [2022-02-22T15:53:33.898Z] Platform:      win32
+[debug] [2022-02-22T15:53:33.898Z] Node Version:  v14.17.6
+[debug] [2022-02-22T15:53:33.899Z] Time:          Tue Feb 22 2022 21:23:33 GMT+0530 (India Standard Time)
+[debug] [2022-02-22T15:53:33.899Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-02-22T15:53:33.974Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-02-22T15:53:33.975Z] > authorizing via signed-in user (rakeshy642@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  D:\rebateCube\nextjs\landingpageslatest
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  .firebaserc already has a default project, using rebatecube-600e7. 
+[debug] [2022-02-22T15:53:40.043Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/rebatecube-600e7 [none]
+[debug] [2022-02-22T15:53:40.877Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/rebatecube-600e7 200
+[debug] [2022-02-22T15:53:40.878Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/rebatecube-600e7 {"projectId":"rebatecube-600e7","projectNumber":"665324851307","displayName":"rebatecube","name":"projects/rebatecube-600e7","resources":{"hostingSite":"rebatecube-600e7"},"state":"ACTIVE"}
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
